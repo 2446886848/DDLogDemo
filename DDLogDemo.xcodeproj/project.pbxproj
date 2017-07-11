@@ -13,6 +13,7 @@
 		E812CAB01F14C6CC00B98BC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E812CAAE1F14C6CC00B98BC2 /* Main.storyboard */; };
 		E812CAB21F14C6CC00B98BC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E812CAB11F14C6CC00B98BC2 /* Assets.xcassets */; };
 		E812CAB51F14C6CC00B98BC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E812CAB31F14C6CC00B98BC2 /* LaunchScreen.storyboard */; };
+		E812CAD01F14C6EF00B98BC2 /* libCocoaLumberjack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E812CACF1F14C6EF00B98BC2 /* libCocoaLumberjack.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,23 @@
 		E812CAB11F14C6CC00B98BC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E812CAB41F14C6CC00B98BC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E812CAB61F14C6CC00B98BC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E812CABF1F14C6EF00B98BC2 /* CocoaLumberjack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaLumberjack.h; sourceTree = "<group>"; };
+		E812CAC01F14C6EF00B98BC2 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		E812CAC11F14C6EF00B98BC2 /* DDASLLogCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogCapture.h; sourceTree = "<group>"; };
+		E812CAC21F14C6EF00B98BC2 /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
+		E812CAC31F14C6EF00B98BC2 /* DDAssertMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAssertMacros.h; sourceTree = "<group>"; };
+		E812CAC41F14C6EF00B98BC2 /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		E812CAC51F14C6EF00B98BC2 /* DDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		E812CAC61F14C6EF00B98BC2 /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
+		E812CAC71F14C6EF00B98BC2 /* DDLegacyMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLegacyMacros.h; sourceTree = "<group>"; };
+		E812CAC81F14C6EF00B98BC2 /* DDLog+LOGV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DDLog+LOGV.h"; sourceTree = "<group>"; };
+		E812CAC91F14C6EF00B98BC2 /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		E812CACA1F14C6EF00B98BC2 /* DDLogMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLogMacros.h; sourceTree = "<group>"; };
+		E812CACB1F14C6EF00B98BC2 /* DDLogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLogManager.h; sourceTree = "<group>"; };
+		E812CACC1F14C6EF00B98BC2 /* DDMultiFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMultiFormatter.h; sourceTree = "<group>"; };
+		E812CACD1F14C6EF00B98BC2 /* DDOSLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDOSLogger.h; sourceTree = "<group>"; };
+		E812CACE1F14C6EF00B98BC2 /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		E812CACF1F14C6EF00B98BC2 /* libCocoaLumberjack.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCocoaLumberjack.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E812CAD01F14C6EF00B98BC2 /* libCocoaLumberjack.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +81,7 @@
 				E812CAA91F14C6CC00B98BC2 /* AppDelegate.m */,
 				E812CAAB1F14C6CC00B98BC2 /* ViewController.h */,
 				E812CAAC1F14C6CC00B98BC2 /* ViewController.m */,
+				E812CABC1F14C6EF00B98BC2 /* DDLog */,
 				E812CAAE1F14C6CC00B98BC2 /* Main.storyboard */,
 				E812CAB11F14C6CC00B98BC2 /* Assets.xcassets */,
 				E812CAB31F14C6CC00B98BC2 /* LaunchScreen.storyboard */,
@@ -77,6 +97,46 @@
 				E812CAA61F14C6CC00B98BC2 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E812CABC1F14C6EF00B98BC2 /* DDLog */ = {
+			isa = PBXGroup;
+			children = (
+				E812CABD1F14C6EF00B98BC2 /* include */,
+				E812CACF1F14C6EF00B98BC2 /* libCocoaLumberjack.a */,
+			);
+			path = DDLog;
+			sourceTree = "<group>";
+		};
+		E812CABD1F14C6EF00B98BC2 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				E812CABE1F14C6EF00B98BC2 /* CocoaLumberjack */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		E812CABE1F14C6EF00B98BC2 /* CocoaLumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				E812CABF1F14C6EF00B98BC2 /* CocoaLumberjack.h */,
+				E812CAC01F14C6EF00B98BC2 /* DDAbstractDatabaseLogger.h */,
+				E812CAC11F14C6EF00B98BC2 /* DDASLLogCapture.h */,
+				E812CAC21F14C6EF00B98BC2 /* DDASLLogger.h */,
+				E812CAC31F14C6EF00B98BC2 /* DDAssertMacros.h */,
+				E812CAC41F14C6EF00B98BC2 /* DDContextFilterLogFormatter.h */,
+				E812CAC51F14C6EF00B98BC2 /* DDDispatchQueueLogFormatter.h */,
+				E812CAC61F14C6EF00B98BC2 /* DDFileLogger.h */,
+				E812CAC71F14C6EF00B98BC2 /* DDLegacyMacros.h */,
+				E812CAC81F14C6EF00B98BC2 /* DDLog+LOGV.h */,
+				E812CAC91F14C6EF00B98BC2 /* DDLog.h */,
+				E812CACA1F14C6EF00B98BC2 /* DDLogMacros.h */,
+				E812CACB1F14C6EF00B98BC2 /* DDLogManager.h */,
+				E812CACC1F14C6EF00B98BC2 /* DDMultiFormatter.h */,
+				E812CACD1F14C6EF00B98BC2 /* DDOSLogger.h */,
+				E812CACE1F14C6EF00B98BC2 /* DDTTYLogger.h */,
+			);
+			path = CocoaLumberjack;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +170,7 @@
 				TargetAttributes = {
 					E812CAA11F14C6CC00B98BC2 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9TPVW548GM;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -274,8 +335,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9TPVW548GM;
 				INFOPLIST_FILE = DDLogDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DDLogDemo/DDLog",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = walen.DDLogDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -285,8 +352,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9TPVW548GM;
 				INFOPLIST_FILE = DDLogDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DDLogDemo/DDLog",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = walen.DDLogDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

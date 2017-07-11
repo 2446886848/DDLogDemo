@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DDLogManager.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [DDLogManager setupFileLogger];
+    
+    DDLogVerbose(@"Verbose");
+    DDLogDebug(@"Debug");
+    DDLogInfo(@"Info");
+    DDLogWarn(@"Warn");
+    DDLogError(@"Error");
 }
 
 
